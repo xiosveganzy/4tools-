@@ -1,3 +1,4 @@
+clear
 echo "Memulai.."
 sleep 0.8
 clear
