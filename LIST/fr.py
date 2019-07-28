@@ -32,7 +32,7 @@ def france():
     print("  |TAM  '--'  FAN| ")
     print("{}  '--------------'----------{}------------------.  ").format(r,w)
     print("{}  | {}Author  : {}Mr.Y0uKn0wM3 {} | {}INDO{}N{}{}ESIA         | ").format(r,w,r,w,r,ir,reset,w)
-    print("{}  | {}Content : {}HACK CCTV    {}| {}+62-857-7951-5200 {}|").format(r,w,w,w,lgray,w)
+    print("{}  | {}Content : {}HACK CCTV    {}| {}FUCK {}|").format(r,w,w,w,lgray,w)
     print("{}  '------------------------------------{}-------'  ").format(r,w)
     print("{}       [ {}List page : {} {}]").format(r,w,rfindpage,r)
     run()
