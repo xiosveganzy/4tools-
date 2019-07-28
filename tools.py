@@ -37,4 +37,15 @@ filtering(select)
 def filtering(pilih):
   if pilih == 1:
     sqlmap()
-   
+    
+   elif pilih == 2:
+    hammer()
+    
+    elif pilih == 3:
+      xerxes()
+      
+      elif pilih == 4:
+        cctv()
+        
+        elif pilih == 00:
+          
