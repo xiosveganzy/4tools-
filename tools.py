@@ -48,4 +48,10 @@ def filtering(pilih):
         cctv()
         
         elif pilih == 00:
-          
+          print (r+"Exiting.."+w)
+          os.sys.exit()
+            else:
+              print (r+"Exiting.."+w)
+              os.sys.exit()
+              
+              
