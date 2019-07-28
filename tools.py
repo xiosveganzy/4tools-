@@ -13,7 +13,7 @@ ir = "\033[0;101m"
 reset = "\033[0m"
 
 def main():
-  
+  os.system('clear')
 print "==========================".format(r)
 print "| Author : Mr.Y0uKn0wM3  |".format(r)
 print "| Content : 4 Tools      |".format(r)
@@ -35,4 +35,4 @@ select = input("\033[1;31m[ \033[1;37mSelect@Number \033[1;31m]\033[1;37m> ")
 filtering(select)
 
 def filtering(pilih):
-  
+  if pilih ==
