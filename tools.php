@@ -55,19 +55,13 @@ system("./fuck '$target' '$ipWeb'");
   
 if ($menu == 3){
   system('clear');
-  echo "[!] Installing SQL MAP\\";
-  system('git clone https://github.com/sqlmapproject/sqlmap');
-  system('cd sqlmap');
-  system('clear');
-  echo "[+] Masukan Web vulnerable SQLi : ";
-  $webTarget = trim(fgets(STDIN));
-  system('clear');
-  system("python2 sqlmap.py -u '$webTarget' --dbs");
+  
+  system("bash sqlmap.sh");
 }
   
  if ($menu == 4){
    system('clear');
-   system('python2 CctvX.py');
+   system('bash cctv.sh');
  }
   
  if ($menu == 5){
