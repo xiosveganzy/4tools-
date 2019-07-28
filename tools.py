@@ -1,3 +1,6 @@
+import os
+
+
 b="\033[0;34m"
 g="\033[1;32m"
 w="\033[1;37m"
@@ -20,4 +23,7 @@ print ""
 print "==== M E N U ====".format(w)
 print ""
 print "1) SQL MAP".format(r, w)
-print "2"
+print "2 DDOS HAMMER".format(r, w)
+print "3) DDOS XERXES".format(r, w)
+print "4) Hack CCTV".format(r, w)
+print "=================".format(w)
