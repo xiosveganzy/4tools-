@@ -1,5 +1,10 @@
 import os
 
+import HAY
+from HAY.sqlmap import *
+from HAY.hammer import *
+from HAY.xerxes import *
+from HAY.cctv import *
 
 b="\033[0;34m"
 g="\033[1;32m"
@@ -55,3 +60,5 @@ def filtering(pilih):
               os.sys.exit()
               
               
+if __name__ == '__main__':
+    main()
