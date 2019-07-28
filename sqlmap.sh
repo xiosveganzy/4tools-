@@ -1,3 +1,4 @@
+clear
 echo "Installing SQL MAP"
 git clone https://github.com/sqlmapproject/sqlmap
 cd sqlmap
