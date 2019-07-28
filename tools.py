@@ -12,6 +12,8 @@ dgray = "\033[1;30m"
 ir = "\033[0;101m"
 reset = "\033[0m"
 
+def main():
+  
 print "==========================".format(r)
 print "| Author : Mr.Y0uKn0wM3  |".format(r)
 print "| Content : 4 Tools      |".format(r)
@@ -27,3 +29,4 @@ print "2 DDOS HAMMER".format(r, w)
 print "3) DDOS XERXES".format(r, w)
 print "4) Hack CCTV".format(r, w)
 print "=================".format(w)
+select = input("\033[0;34mSELECT=> ")
