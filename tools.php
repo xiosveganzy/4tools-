@@ -78,7 +78,7 @@ if ($menu == 3){
    sleep(0.1);
    echo "Sampai jumpa kapan2 ketemuan lagi :-}\n";
    sleep(1);
-   system('clear')
+   system('clear');
    echo "[!] Exited Program..";
   }
 } else {
