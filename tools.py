@@ -35,4 +35,6 @@ select = input("\033[1;31m[ \033[1;37mSelect@Number \033[1;31m]\033[1;37m> ")
 filtering(select)
 
 def filtering(pilih):
-  if pilih ==
+  if pilih == 1:
+    sqlmap()
+   
