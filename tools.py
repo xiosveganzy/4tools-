@@ -28,5 +28,11 @@ print "1) SQL MAP".format(r, w)
 print "2 DDOS HAMMER".format(r, w)
 print "3) DDOS XERXES".format(r, w)
 print "4) Hack CCTV".format(r, w)
+print "00) Exit".format(r, w)
 print "=================".format(w)
-select = input("\033[0;34mSELECT=> ")
+print ""
+select = input("\033[1;31m[ \033[1;37mSelect@Number \033[1;31m]\033[1;37m> ")
+filtering(select)
+
+def filtering(pilih):
+  
