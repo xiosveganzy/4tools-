@@ -24,15 +24,6 @@ sleep(1);
  echo "==================";
   sleep(3);
   system('clear');
-  system('figlet Welcome');
-  sleep(0.9);
-  system('figlet To');
-  sleep(0.9);
-  system('clear');
-  system('figlet 4 TOOLS')
-  system('figlet =======');
-  sleep(1);
-  system('clear');
 echo "=== MENU PILIHAN ====\n";
 echo "1) DDOS Hammer\n";
 echo "2) DDOS Xerxes\n";
