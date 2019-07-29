@@ -26,10 +26,16 @@ read -p "PILIH=> " menu;
 
 if [$menu == 1] || [$menu == 01]
 then
+clear
+echo "Hubungi pupusampah@gmail.com jika any problem !"
+sleep 1
 php tools.php
 fi
 
 if [$menu == 2] || [$menu == 02]
 then
+clear
+echo "Hubungi pupusampah@gmail.com jika any problem !"
+sleep 1
 python2 tools.py
 fi
