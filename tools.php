@@ -45,9 +45,11 @@ system("python hammer.py -s '$ip' -p '$port' -t '$turbo'");
 if ($menu == 2){
 system('gcc fuck.c -o fuck');
 system('clear');
-echo "[+] Masukan Web Target : ( Tanpa HTTP / HTTPS )";
+echo "[+] Masukan Web Target ( Tanpa HTTP / HTTPS )\n";
+echo "[-] Input : ";
 $target = trim(fgets(STDIN));
-echo "[+] Masukan Port :";
+  system('clear');
+echo "[+] Masukan Port : ";
 $ipWeb = trim(fgets(STDIN));
 system('clear');
 system("./fuck '$target' '$ipWeb'");
@@ -73,9 +75,9 @@ if ($menu == 3){
    echo "Sampai jumpa kapan2 ketemuan lagi :-}\n";
    sleep(1);
    system('clear');
-   echo "[!] Exited Program..";
+   echo "[!] Exited Program..\n";
   }
 } else {
-echo "[!] Incorrect Username and Password..";
+echo "[!] Incorrect Username and Password..\n";
 }
 ?>
