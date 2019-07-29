@@ -24,12 +24,12 @@ echo "===================="
 echo ""
 read -p "PILIH=> " menu;
 
-if [menu == 1] || [menu == 01]
+if [$menu == 1] || [$menu == 01]
 then
 php tools.php
 fi
 
-if [menu == 2] || [menu == 02]
+if [$menu == 2] || [$menu == 02]
 then
 python2 tools.py
 fi
