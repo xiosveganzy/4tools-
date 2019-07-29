@@ -43,16 +43,21 @@ def filtering(pilih):
   if pilih == 1:
     sqlmap()
     
-   elif pilih == 2:
-    hammer()
-    
-    elif pilih == 3:
-      xerxes()
-      
-      elif pilih == 4:
-        cctv()
+   def filtering(pilih):
+    if pilih == 2:
+      hammer()
         
-        elif pilih == 00:
+        
+     def filtering(pilih):
+      if pilih == 3:
+        xerxes()
+        
+        def filtering(pilih):
+          if pilih == 4:
+            cctv()
+        
+        def filtering(pilih):
+         if pilih == 00:
           print (r+"Exiting.."+w)
           os.sys.exit()
             else:
