@@ -82,6 +82,11 @@ if ($menu == 3){
  }
   
  if ($menu == 5){
+    system('clear');
+  system('php Hash.php');
+  }
+ 
+ if ($menu == 6){
    system('clear');
    echo "NO JAV NO COLI\n";
    sleep(0.2);
