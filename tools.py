@@ -21,8 +21,8 @@ def main():
   os.system('clear')
 print "==========================".format(r)
 print "| Author : Mr.Y0uKn0wM3  |".format(r)
-print "| Content : 4 Tools      |".format(r)
-print "| Updated at 2019-07-28  |".format(r)
+print "| Content : 5 Tools      |".format(r)
+print "| Updated at 2019-07-30  |".format(r)
 print "==========================".format(r)
 
 print ""
