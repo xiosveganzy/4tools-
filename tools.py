@@ -33,6 +33,7 @@ print "1) SQL MAP".format(r, w)
 print "2 DDOS HAMMER".format(r, w)
 print "3) DDOS XERXES".format(r, w)
 print "4) Hack CCTV".format(r, w)
+print "5) Hash Code".format(r, w)
 print "00) Exit".format(r, w)
 print "=================".format(w)
 print ""
@@ -43,21 +44,25 @@ def filtering(pilih):
   if pilih == 1:
     sqlmap()
     
-   def filtering(pilih):
-    if pilih == 2:
+#   def filtering(pilih):
+    elif pilih == 2:
       hammer()
         
         
-     def filtering(pilih):
-      if pilih == 3:
+   #  def filtering(pilih):
+      elif pilih == 3:
         xerxes()
         
-        def filtering(pilih):
-          if pilih == 4:
+     #   def filtering(pilih):
+          elif pilih == 4:
             cctv()
+          
+          elif pilih == 5:
+            os.system('clear')
+            os.system('php Hash.php')
         
-        def filtering(pilih):
-         if pilih == 00:
+       # def filtering(pilih):
+         elif pilih == 00:
           print (r+"Exiting.."+w)
           os.sys.exit()
             else:
